@@ -81,8 +81,7 @@ def main():
     print("Starting evaluation...")
     try:
         eval_results = trainer.evaluate()
-        print("
-Evaluation Results:")
+        print("Evaluation Results:")
         for key, value in eval_results.items():
             print(f"  {key}: {value}")
     except Exception as e:
